@@ -1,0 +1,76 @@
+.M3 {
+    background: #f3ccde;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #f3ccde);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #f3ccde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 1349px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3rem;
+  
+}
+  
+.texto {
+    text-align: center;
+    background-color: transparent;
+}
+  
+.imagenes {
+    background-color: transparent;
+    height: 600px;
+}
+  
+.imagen1 {
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+
+.botanica {
+	font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    width: 1349px;
+	height: 60px;
+	display: flex;
+    margin-right: 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(247, 214, 250);
+}
+
+.contenedor {
+
+    display: flex;
+	text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 12px;
+    font-family: 'Libre Baskerville', serif;
+	font-size: 1.2rem; 
+	padding: 8 px;
+	justify-content: center;
+    margin-right: 20px;
+	list-style: none;
+	width: 1349px;
+    height: 60px;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+	font-family: 'Libre Baskerville', serif;
+    font-size: 1.3rem;
+	margin-right: 60px;
+}
+
+.enlaces{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+	font-family: 'Libre Baskerville', serif;
+    font-size: 1.4m;
+    
+}

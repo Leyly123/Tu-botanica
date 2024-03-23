@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #be6a9d;  
+    /* fallback for old browsers */
+    background: linear-gradient(to right, #3b10537c, #ad538967), url(../img/Ingresar/login.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b105383, #ad538956), url(../img/Ingresar/login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Libre Baskerville', serif;
+	font-size: 1.1rem; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fffcfcbe;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #414141;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border-top: #999;
+    position: relative;
+
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    color: transparent;
+    
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #b951a1;
+    position: absolute;
+    margin-top: 12px;
+    z-index: 100000;
+}
+
+.cont-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to right, #3b1053ad, #ad5389ad);
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.button:hover{
+    background: #b951a1;
+
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    font-weight: 600;
+    text-decoration: none;
+      color: #1a2537
+}
+
+.link:hover{
+    background: rgb(169, 91, 142);
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+

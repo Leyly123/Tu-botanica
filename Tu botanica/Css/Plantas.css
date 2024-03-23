@@ -1,0 +1,88 @@
+.container1 {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.25rem;
+    padding: 25px;
+    background: #f3ccde;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #f3ccde);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #f3ccde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.planta {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0, 2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.planta:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+
+.planta img {
+    width: 110%;
+    height: 200px;
+}
+
+.planta .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.planta .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.planta .contenido h3 {
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.planta .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #fca5ce;
+    border: 1px solid  #fca5ce;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.planta .contenido a:hover {
+    background: #fca5ce;
+    color: black;
+}
+
+.seccion {
+
+    display: flex;
+	text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    font-family: 'Libre Baskerville', serif;
+	font-size: 1rem; 
+	padding: 8 px;
+	justify-content: center;
+    margin-right: 20px;
+	list-style: none;
+	width: 1309px;
+    height: 60px;
+}
+
+.tiulo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background: #dfb8ca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #dfb8ca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #dfb8ca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
